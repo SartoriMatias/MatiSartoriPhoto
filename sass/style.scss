@@ -1,0 +1,40 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Boogaloo', cursive;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+.navbar{
+    background-color: #E8E8E8;
+    .navbar-toggler{
+        @media screen and (max-width: 404px) {
+            margin: auto;
+        }
+
+    }
+}
+.nosotros{
+    padding-top: 200px;
+    .nosotrostitle{
+        font-size: 50px;
+
+    }
+    .border{
+        border-radius: 50%;
+        @media screen and (max-width: 991px){
+            width: 200px;
+            height: 200px;
+        }
+        @media screen and (max-width: 768px){
+            width: 150px;
+            height: 150px;
+        }
+
+    }
+}

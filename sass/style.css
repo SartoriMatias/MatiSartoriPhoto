@@ -1,0 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: 'Boogaloo', cursive;
+}
+
+body p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background-color: #E8E8E8;
+}
+
+@media screen and (max-width: 404px) {
+  .navbar .navbar-toggler {
+    margin: auto;
+  }
+}
+
+.nosotros {
+  padding-top: 200px;
+}
+
+.nosotros .nosotrostitle {
+  font-size: 50px;
+}
+
+.nosotros .border {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .nosotros .border {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros .border {
+    width: 150px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
